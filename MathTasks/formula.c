@@ -18,19 +18,17 @@ int main()
 {
     double x = 0;
     char scanChar = 0;
+
     printf("Add X (integer or real number):");
     int scan = (scanf("%lf%c", &x, &scanChar));
-    while (1)
+
+    if (scan == 2 && scanChar == '\n')
     {
-        if (scan == 2 && scanChar == '\n')
-        {
-            printf("Result: %0.3lf", calculate(x));
-            break;
-        }
-        else
-        {
-            printf("To get the answer you must enter a number! Try again.");
-        }
+        printf("Result: %0.3lf", calculate(x));
+    }
+    else
+    {
+        printf("n/a");
     }
     return 0;
 }
