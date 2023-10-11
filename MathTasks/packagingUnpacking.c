@@ -28,7 +28,7 @@ void Unpacking(unsigned int pack)
 int main()
 {
     unsigned int pack = 0;
-    printf("\nPacking.\nResult: %d\n\n", Packing(pack));
+    printf("\nPacking.\nResult: %u\n\n", Packing(pack));
     Unpacking(Packing(pack));
     return 0;
 }
