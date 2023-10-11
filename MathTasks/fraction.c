@@ -9,7 +9,7 @@ int main(){
     double x = 0;
     char scanChar = 0;
 
-    printf("Add X (integer or real number):");
+    printf("Enter X (integer or real number):");
     int scan = (scanf("%lf%c", &x, &scanChar));
 
     if (scan == 2 && scanChar == '\n' && x >= 0)

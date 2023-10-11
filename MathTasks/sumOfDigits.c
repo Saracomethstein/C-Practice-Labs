@@ -16,7 +16,7 @@ int main(){
     int x = 0;
     char scanChar = 0;
 
-    printf("Add X (integer):");
+    printf("Enter X (integer):");
     int scan = (scanf("%d%c", &x, &scanChar));
 
     if (scan == 2 && scanChar == '\n' && x >= 0)
