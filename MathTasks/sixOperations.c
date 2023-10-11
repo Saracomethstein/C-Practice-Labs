@@ -15,7 +15,7 @@ int main()
 	int scan = 0;
 	char scanChar = 0;
 
-	printf("Enter X (integer or real number):");
+	printf("Enter X (integer or real number): ");
 	scan = (scanf("%lf%c", &x, &scanChar));
 	if (scan == 2 && scanChar == '\n')
 	{
