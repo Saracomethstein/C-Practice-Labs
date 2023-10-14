@@ -1,6 +1,6 @@
 <h1>Mathematical programs (Information)</h1>
 
-1. formula.c - The project calculates the value of a formula with a user-specified variable X.
+1. [formula.c](https://github.com/Saracomethstein/C-Practice-Labs/blob/develop/MathTasks/formula.c) - The project calculates the value of a formula with a user-specified variable X.
 
 2. assignValue.c -  Assign the integer variable k a value equal to the third digit from the end in the representation of a positive integer X.
 
