@@ -3,8 +3,8 @@
 unsigned int BitReplacement(){
     int p = 3;
     int n = 2;
-    unsigned int x = 150; // 150
-    unsigned int y = 20;  // 20
+    unsigned int x = 150;
+    unsigned int y = 20;
 
     unsigned int mask = ~(~0u << n) << (p - n + 1);
     y = ~y;
