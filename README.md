@@ -1,5 +1,29 @@
 <h1>Mathematical programs (Information)</h1>
 
+The `main` method body has the same structure, only the data type of the user-input variable and the style of outputting the result vary.
+```c
+int main()
+{
+    double x = 0;
+    char scanChar = 0;
+
+    printf("Enter X (integer or real number): ");
+    int scan = (scanf("%lf%c", &x, &scanChar));
+
+    if (scan == 2 && scanChar == '\n')
+    {
+        printf("Result: %0.3lf", calculate(x));
+    }
+    else
+    {
+        printf("n/a");
+    }
+    return 0;
+}
+```
+
+<h2>List of programs</h2>
+
 1. [formula.c](https://github.com/Saracomethstein/C-Practice-Labs/blob/develop/MathTasks/formula.c) - The project calculates the value of a formula with a user-specified variable X.
 ```c
 double mathPow(double n, int pow)
