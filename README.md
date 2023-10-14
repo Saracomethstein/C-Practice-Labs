@@ -11,6 +11,7 @@ double mathPow(double n, int pow)
     }
     return result;
 }
+
 double calculate(double x)
 {
     return 2 * mathPow(x, 4) - 3 * mathPow(x, 3) + 4 * mathPow(x, 2) - 5 * x + 6;
